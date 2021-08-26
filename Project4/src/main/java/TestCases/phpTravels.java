@@ -64,6 +64,7 @@ public class phpTravels {
     public void LatestOnBlogVisible(){
         Assert.assertTrue(homePage.BlogDisplayed());
         Assert.assertTrue(homePage.LatestIsDisplayed());
+        Utils.holdExecutionForSeconds(2);
 
             }
     @Test (priority = 7)
